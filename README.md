@@ -5,7 +5,7 @@
 David Kuo, Tom Pritsky, Davey Huang
 
 ## Summary
-A key component of the drug discovery process is hit identification and lead optimization, which involves identifying compounds that bind to a biological target of interest and optimizing target affinity. Due to the paucity and heterogeneity of high-quality experimental data, we propose a novel few-shot meta-learning methodology that efficiently brings together chem- ical structure information and biological protein information, leveraging recent advances in large language models for chemical and biological sequence data.
+A key component of the drug discovery process is hit identification and lead optimization, which involves identifying compounds that bind to a biological target of interest and optimizing target affinity. Due to the paucity and heterogeneity of high-quality experimental data, we propose a novel few-shot meta-learning methodology that efficiently brings together chemical structure information and biological protein information, leveraging recent advances in large language models for chemical and biological sequence data.
 
 We created a few-shot protein-ligand binding classification dataset of 1047 target protein tasks from 17818 protein-ligand affinity measurements in the **BindingDB** dataset and leveraged the pre-trained embeddings from **ChemBERTa** and **ESM-2** transformer models to represent each small molecule ligand and target protein sequence, respectively. We additionally trained a variational autoencoder (VAE) to reduce the dimensionality of the generated ligand and protein embeddings for improved computational efficiency.
 
