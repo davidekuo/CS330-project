@@ -17,7 +17,7 @@ Full details and results can be found in our [paper](https://drive.google.com/fi
 
 ## Set Up
 1) Clone this repository
-2) Inside the repository, create a new virtual environment and activate it, for example. `python3 -m venv venv` and `source venv/bin/activate`
+2) Inside the repository, create a new virtual environment and activate it, for example, `python3 -m venv venv` and `source venv/bin/activate`
 3) Run `pip install -r requirements.txt` to install the required dependencies
 
 ## Code
